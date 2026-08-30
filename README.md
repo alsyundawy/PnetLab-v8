@@ -9,9 +9,10 @@ instructions. It does not host the application source.
 ## Downloads
 
 | Artifact | Description | Link |
-|---|---|---|
+| --- | --- | --- |
 | Network Install Script | Hands-off installer for a fresh Ubuntu 26.04 (27H1 "Resolute") host — pulls and installs the latest PNetLab v8 release over the network. | [download](https://codeberg.org/api/packages/netkillui/generic/pnetlab-core-assets/0.channel/pnetlab-network-install-latest.sh) |
 | OVA (autoinstaller) | Minimal Ubuntu 26.04 image with an unattended autoinstaller — boots and installs PNetLab v8 itself. | [download](https://mega.nz/file/uNAz3JDb#CQA93KkaU3XrCs6EIosChOjYonn1W4ELgnLm7NcZ2Wg) |
+| Desktop Install Bundle | Installs PNetLab v8 alongside a local Ubuntu Desktop workstation environment on bare metal. Tested on Ubuntu 26.04 Desktop and Xubuntu 26.04 Desktop — Xubuntu is recommended for its lighter resource footprint. Dual boot alongside Widows or external SSD setup works. | [download](https://mega.nz/file/rRZzXSRa#fsAL-CGdLPf0gCjBVoeIeMuo-A1Fsdm3nCx2Ea3u_a4) |
 
 ## Requirements
 
@@ -37,10 +38,10 @@ PNetLab v8 package automatically.
 1. Download the OVA from the table above.
 2. Import it into VMware Workstation/ESXi or VirtualBox.
 3. Power on the VM. It boots into an unattended autoinstaller that partitions
-   the disk and installs Ubuntu 26.04 + PNetLab v8 with no manual input beyond
-   DHCP/static IP choice.
+  the disk and installs Ubuntu 26.04 + PNetLab v8 with no manual input beyond
+  DHCP/static IP choice.
 4. Once the install finishes and the VM reboots, log in to the web UI at
-   `https://<host-ip>/`.
+  `https://<host-ip>/`.
 
 ## Updating
 
@@ -57,13 +58,15 @@ host.
 ### Manual upgrade (if `pnetlab-update` is unavailable)
 
 1. Back up `/opt/unetlab` (or your configured lab data path) and any custom
-   node images.
+  node images.
 2. Download the target release package (placeholder link above).
 3. Install it:
-   ```bash
-   sudo dpkg -i pnetlab_<version>_amd64.deb
-   sudo apt-get -f install
-   ```
+  
+  ```bash
+  sudo dpkg -i pnetlab_<version>_amd64.deb
+  sudo apt-get -f install
+  ```
+  
 4. Reboot and verify the web UI and running labs come back up correctly.
 
 ## Support / Issues
