@@ -1,4 +1,4 @@
-# PNetLab v8
+# PNetLab v8 6.8.74
 
 PNetLab is a self-hosted network emulation platform for building and running
 virtual labs (routers, switches, firewalls, servers, and more) in your browser.
