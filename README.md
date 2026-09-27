@@ -81,3 +81,45 @@ Open an issue in this repository's issue tracker.
 ## License
 
 See the license terms distributed with the PNetLab v8 package.
+
+
+
+# PNetLab v8 — Virtual Appliance Collection
+
+> **PNetLab Virtual Appliance & NetInstall**
+>
+> Koleksi image PNetLab dalam format **OVA** untuk deployment pada platform virtualisasi seperti VMware, Proxmox VE, VirtualBox, maupun hypervisor lain yang mendukung import OVA.
+
+PNetLab merupakan platform network emulation yang menyediakan lingkungan lab virtual untuk menjalankan berbagai perangkat jaringan, termasuk node berbasis QEMU dan Docker. :contentReference[oaicite:0]{index=0}
+
+---
+
+## Available Images
+
+| Image | Version | Kernel | Format | Type |
+|---|---|---:|---|---|
+| **PNetLab-v8.2-6.8.84** | v8.2 | 6.8.84 | `.ova` | Ready-to-Deploy |
+| **PNetLab-v8-netinstall** | v8 | — | `.ova` | Network Installer |
+
+---
+
+# 1. PNetLab v8.2 — Kernel 6.8.84
+
+### `PNetLab-v8.2-6.8.84.ova`
+
+OVA appliance yang dapat langsung di-import ke platform virtualisasi yang mendukung format Open Virtualization Appliance.
+
+### Download
+
+| Mirror | Link |
+|---|---|
+| **MediaFire** | https://www.mediafire.com/file/uy10drloalz61a5 |
+| **Pixeldrain** | https://pixeldrain.com/u/3WTSKNcY |
+
+### File Information
+
+```text
+File     : PNetLab-v8.2-6.8.84.ova
+CRC-32   : 10c5d11e
+SHA-1    : da0c715704c3fbf810ffd265c2c53f01d8c2c3a6
+SHA-256  : 855da18ff00318f08eea373f029cba579865f3a93f0bbfe8eb0767296e8f8e19
