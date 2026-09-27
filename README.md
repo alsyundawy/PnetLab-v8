@@ -1,22 +1,90 @@
-# 🧪 PNetLab v8 — Network Emulation Platform
+<!-- markdownlint-disable-file MD033 MD041 -->
 
-> An enterprise-grade, web-based network virtualization and emulation platform for designing, building, and validating complex multi-vendor network topologies (routers, switches, firewalls, and containers) directly in your browser.
+<h1 align="center">🧪 PNetLab v8</h1>
 
-[![Upstream Release](https://img.shields.io/badge/Upstream%20Release-6.8.84--resolute1-blue.svg?logo=codeberg)](https://codeberg.org/netkillui/Pnetlabv8)
-[![Platform](https://img.shields.io/badge/Platform-Ubuntu%2026.04%20LTS%20%7C%20Resolute-orange.svg?logo=ubuntu)](https://ubuntu.com)
-[![Dedicated Mirror](https://img.shields.io/badge/Mirror-repo.alsyundawy.com-success.svg?logo=server)](https://repo.alsyundawy.com/?berkas=PnetLab)
-[![Proxmox VE](https://img.shields.io/badge/Hypervisor-Proxmox%20VE%208%2B%20%7C%20VMware-8B0000.svg?logo=proxmox)](https://alsyundawy.com/PNETLab-v8.html#proxmox)
-[![Artifacts](https://img.shields.io/badge/Artifacts-ISO%20%7C%20OVA%20%7C%20DEB%20%7C%20TGZ-green.svg)](#downloads--artifact-catalogs)
-[![Maintenance Status](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://github.com/alsyundawy/PnetLab-v8)
-[![Upstream Issues](https://img.shields.io/badge/Upstream%20Issues-Codeberg-2185d0.svg?logo=codeberg)](https://codeberg.org/netkillui/Pnetlabv8/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/alsyundawy/PnetLab-v8?style=social)](https://github.com/alsyundawy/PnetLab-v8/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/alsyundawy/PnetLab-v8?style=social)](https://github.com/alsyundawy/PnetLab-v8/network/members)
+<h3 align="center">Enterprise Network Virtualization & Emulation Platform</h3>
+
+<p align="center">
+  <a href="https://codeberg.org/netkillui/Pnetlabv8"><img src="https://img.shields.io/badge/Upstream%20Release-6.8.84--resolute1-0284c7?style=for-the-badge&logo=codeberg&logoColor=white" alt="Upstream Release"></a>
+  <a href="https://ubuntu.com"><img src="https://img.shields.io/badge/Platform-Ubuntu%2026.04%20LTS-e95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu 26.04 LTS"></a>
+  <a href="https://repo.alsyundawy.com/?berkas=PnetLab"><img src="https://img.shields.io/badge/Mirror-repo.alsyundawy.com-238636?style=for-the-badge&logo=server&logoColor=white" alt="High Speed Mirror"></a>
+  <a href="https://alsyundawy.com/PNETLab-v8.html"><img src="https://img.shields.io/badge/Hypervisor-Proxmox%20VE%208%2B%20%7C%20VMware-e57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox VE 8+"></a>
+  <a href="#downloads--artifact-catalogs"><img src="https://img.shields.io/badge/Artifacts-ISO%20%7C%20OVA%20%7C%20DEB%20%7C%20TGZ-8957e5?style=for-the-badge&logo=packagist&logoColor=white" alt="Artifacts"></a>
+  <a href="https://codeberg.org/netkillui/Pnetlabv8/issues"><img src="https://img.shields.io/badge/Upstream%20Issues-Codeberg-2185d0?style=for-the-badge&logo=codeberg&logoColor=white" alt="Upstream Issues"></a>
+  <a href="https://github.com/alsyundawy/PnetLab-v8"><img src="https://img.shields.io/badge/Maintained%3F-yes-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Maintained"></a>
+</p>
+
+<p align="center">
+  An enterprise-grade, web-based network virtualization and emulation platform for designing, building, and validating complex multi-vendor network topologies (routers, switches, firewalls, and containers) directly in your browser.
+</p>
+
+<p align="center">
+  <a href="#downloads--artifact-catalogs">
+    <img src="https://img.shields.io/badge/🚀_Download_Artifacts-v8.12-238636?style=for-the-badge&logo=cloudsmith&logoColor=white" alt="Download Artifacts">
+  </a>
+  <a href="https://repo.alsyundawy.com/?berkas=PnetLab">
+    <img src="https://img.shields.io/badge/🪞_Dedicated_Mirror-repo.alsyundawy.com-0284c7?style=for-the-badge&logo=server&logoColor=white" alt="Dedicated Mirror">
+  </a>
+  <a href="https://codeberg.org/netkillui/Pnetlabv8">
+    <img src="https://img.shields.io/badge/📦_Upstream_Codeberg-netkillui-blue?style=for-the-badge&logo=codeberg&logoColor=white" alt="Upstream Codeberg">
+  </a>
+  <a href="https://codeberg.org/netkillui/Pnetlabv8/issues">
+    <img src="https://img.shields.io/badge/🐛_Upstream_Issues-Report_Bug-red?style=for-the-badge&logo=codeberg&logoColor=white" alt="Report Upstream Issue">
+  </a>
+</p>
+
+> Maintained, mirrored, and documented by<br>
+> **[`HARRY DERTIN SUTISNA ALSYUNDAWY (@alsyundawy)`](https://github.com/alsyundawy)** —<br>
+> Dedicated high-speed download mirror hub, Proxmox VE 8+ deployment architecture, and hardening guide for enterprise network virtualization.
+>
+> 🪞 **[`Dedicated Mirror (repo.alsyundawy.com)`](https://repo.alsyundawy.com/?berkas=PnetLab)** &nbsp;|&nbsp;
+> 📖 **[`Architecture Guide (alsyundawy.com)`](https://alsyundawy.com/PNETLab-v8.html)** &nbsp;|&nbsp;
+> 🏠 **[`Upstream Codeberg (@netkillui)`](https://codeberg.org/netkillui/Pnetlabv8)** &nbsp;|&nbsp;
+> 🐛 **[`Upstream Issues Tracker`](https://codeberg.org/netkillui/Pnetlabv8/issues)** &nbsp;|&nbsp;
+> 💬 **[`Telegram Community`](https://t.me/pnetlab_official)** &nbsp;|&nbsp;
+> 💖 **[`Support via PayPal`](https://www.paypal.me/alsyundawy)** &nbsp;|&nbsp;
+> 🇮🇩 **[`QRIS Donation`](#support--donation)**
+
+---
+
+## 🧭 Navigation
+
+- [Overview](#overview)
+- [Why PNetLab v8? Key Features & Capabilities](#why-pnetlab-v8-key-features--capabilities)
+- [System Architecture & Trust Anchors](#system-architecture--trust-anchors)
+  - [Execution Flow & Service Topology](#execution-flow--service-topology)
+  - [Upstream APT Packages & Cryptographic Signers](#upstream-apt-packages--cryptographic-signers)
+- [System Requirements & Sizing Matrix](#system-requirements--sizing-matrix)
+- [Downloads & Artifact Catalogs](#downloads--artifact-catalogs)
+  - [1. Dedicated High-Speed Mirror (repo.alsyundawy.com)](#1-dedicated-high-speed-mirror-repoalsyundawycom)
+  - [2. Official Upstream Release Artifacts (Codeberg & Mega)](#2-official-upstream-release-artifacts-codeberg--mega)
+  - [3. Public Community Mirrors](#3-public-community-mirrors)
+- [Cryptographic Checksums & Verification](#cryptographic-checksums--verification)
+  - [CLI Checksum Verification Commands](#cli-checksum-verification-commands)
+- [Installation & Deployment Methods](#installation--deployment-methods)
+  - [Method 1: Automated Network Installer (Ubuntu 26.04)](#method-1-automated-network-installer-ubuntu-2604)
+  - [Method 2: Proxmox VE 8+ Enterprise Deployment](#method-2-proxmox-ve-8-enterprise-deployment)
+  - [Method 3: Bare-Metal Server Installation via Full ISO](#method-3-bare-metal-server-installation-via-full-iso)
+  - [Method 4: Air-Gapped Offline Bundle Deployment](#method-4-air-gapped-offline-bundle-deployment)
+- [Critical Production Caveats & Troubleshooting](#critical-production-caveats--troubleshooting)
+  - [⚠️ Strict Prohibition: No Upgrade Path from Legacy v4, v5, or v6](#️-strict-prohibition-no-upgrade-path-from-legacy-v4-v5-or-v6)
+  - [1. Preflight Error: Installer Refuses /etc/network/interfaces](#1-preflight-error-installer-refuses-etcnetworkinterfaces)
+  - [2. APT Simulation Error: Held Packages Block Mutation](#2-apt-simulation-error-held-packages-block-mutation)
+  - [3. Guacamole Console Restart-Loop Issue (#19 & #35)](#3-guacamole-console-restart-loop-issue-19--35)
+  - [4. Retired Systemd Store Units Cleanup](#4-retired-systemd-store-units-cleanup)
+  - [5. UFW Firewall Removed: Switch to iptables-persistent](#5-ufw-firewall-removed-switch-to-iptables-persistent)
+- [Post-Installation & Runtime Validation Checklist](#post-installation--runtime-validation-checklist)
+- [Upstream Credits & Attribution](#upstream-credits--attribution)
+- [Issues & Bug Reports Protocol](#issues--bug-reports-protocol)
+- [Maintainer & Contact](#maintainer--contact)
+- [Support & Donation](#support--donation)
+- [License](#license)
 
 ---
 
 ## Overview
 
-**PNetLab v8** (Packet Network Lab) is an advanced, self-hosted network emulation platform designed specifically for modern Linux hosts running **Ubuntu 26.04 LTS ("27H1 Resolute")** with mandatory KVM hardware virtualization (`/dev/kvm`). Built to empower network engineers, security researchers, and DevOps practitioners, PNetLab v8 allows operators to run high-density topologies combining virtual routers, switches, firewalls, servers, and containerized workloads inside a responsive, clientless web interface.
+**PNetLab v8** (Packet Network Lab) is an advanced, self-hosted network emulation platform designed specifically for modern Linux hosts running **Ubuntu 26.04 LTS ("27H1 Resolute")** with mandatory KVM hardware virtualization (`/dev/kvm`). Built to empower network architects, security researchers, certification candidates (CCNA, CCNP, CCIE, JNCIE), and DevOps practitioners, PNetLab v8 allows operators to run high-density topologies combining virtual routers, switches, firewalls, servers, and containerized workloads inside a responsive, clientless web interface.
 
 This repository serves as a community landing page, high-speed download mirror hub, and deployment hardening guide. It does **not** host the proprietary application source code.
 
@@ -24,18 +92,56 @@ All upstream package releases, signed manifests, and core APT channels are maint
 
 ---
 
-## Key Features
+## Why PNetLab v8? Key Features & Capabilities
 
-- **Clientless HTML5 Web Console**: Access node consoles (Telnet, SSH, VNC, RDP) natively in any modern browser via an integrated Apache Guacamole micro-daemon (`pnet-guac-lite` on port `8081`).
-- **Multi-Engine Virtualization**: Concurrently run QEMU/KVM virtual machines, Cisco IOL (IOS on Linux), Dynamips, and native Docker containers inside the same interconnected canvas.
-- **Modern Linux Kernel Optimization**: Tuned for Linux 6.8+ kernels on Ubuntu 26.04 Resolute, supporting hardware-accelerated nested virtualization, eBPF telemetry, and soft-RoCE (`rdma_rxe`).
-- **Flexible Deployment Formats**: Available as an automated network installer script, full bootable ISO (`.iso`), turn-key Open Virtualization Appliances (`.ova`), and offline air-gapped tarball bundles (`.tgz`).
-- **Zero-Friction Enterprise Hypervisors**: Validated for bare-metal execution, VMware Workstation / ESXi, and Proxmox VE 8+ with VirtIO SCSI Single TRIM/discard and anti-ballooning profiles.
-- **Built-in Package Lifecycle**: Includes the native `sudo pnetlab-update` utility to seamlessly stream in-place updates from upstream release channels.
+| Capability                           | Technical Implementation                                                                                                    | Enterprise Benefit                                                                                                                     |
+| :----------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **Clientless HTML5 Web Console**     | Integrated Apache Guacamole daemon (`pnet-guac-lite` on port `8081`) with native WebSocket terminal streaming.              | Eliminates desktop client requirements (SecureCRT/PuTTY/VNC); access any node console directly in Chrome, Firefox, or Safari.          |
+| **Multi-Engine Virtualization**      | Concurrently bridges QEMU/KVM VMs, Cisco IOL (IOS on Linux), Dynamips, VPCS, and native Docker containers.                  | Design heterogeneous multi-vendor networks (Cisco, Juniper, Arista, Fortinet, Linux) inside one unified visual canvas.                 |
+| **Modern Kernel Optimization**       | Tuned for Linux 6.8+ kernels on Ubuntu 26.04 Resolute with nested virtualization (`/dev/kvm`) and soft-RoCE (`rdma_rxe`).   | Near bare-metal CPU execution speeds, hardware-assisted nested hypervisors, and high-throughput low-latency packet switching.          |
+| **Automated Lifecycle & Updates**    | Built-in upstream updater utility `sudo pnetlab-update` streaming signed release channels (`6.8.84-resolute1`).             | Safe, one-command in-place patching of web frontends, wrappers, and core broker daemons without topology disruption.                   |
+| **Proxmox VE 8+ Tuning**             | Custom `qm create` deployment profile with `virtio-scsi-single`, TRIM `discard=on`, `ssd=1`, `iothread=1`, and `balloon=0`. | Zero disk space bloat from temporary lab images, immune to QEMU memory balloon thrashing, and enterprise NVMe I/O throughput.          |
+| **Air-Gapped & Offline Portability** | Full standalone bootable ISO (`.iso`) and compressed offline tarball bundles (`.tgz`) with pinned deb repositories.         | 100% operational in isolated enterprise datacenters, secure defense labs, and restricted networks with zero external WAN connectivity. |
 
 ---
 
-## Architecture & Trust Anchors
+## System Architecture & Trust Anchors
+
+### Execution Flow & Service Topology
+
+```mermaid
+flowchart TB
+    subgraph ClientLayer["Client Access Layer"]
+        Browser["Modern Web Browser<br/>(Chrome / Safari / Firefox / Edge)"]
+    end
+
+    subgraph PresentationLayer["PNetLab v8 Web Services (Port 80 / 443 / 8081)"]
+        Apache["Apache2 Web Server<br/>(PHP 8.5-FPM Runtimes)"]
+        Guac["pnet-guac-lite Micro-Daemon<br/>(Guacamole HTML5 Terminal :8081)"]
+    end
+
+    subgraph CoreLayer["Orchestration & Bridge Control"]
+        Broker["pnetlab-brokerd Daemon<br/>(Topology & API Controller :8025)"]
+        LinuxBridge["Host Linux Kernel & Network Bridges<br/>(pnet0: Management | pnet1-9: Lab Interconnects | nat0: Outbound)"]
+    end
+
+    subgraph NodeLayer["Multi-Engine Virtualization Runtimes"]
+        QEMU["QEMU / KVM Nodes<br/>(CSR1000v, vQFX, vEOS, FortiGate)"]
+        IOL["Cisco IOL Runtimes<br/>(IOS on Linux L2 / L3)"]
+        Docker["Docker Containers<br/>(Ubuntu, Alpine, Network Tools)"]
+        VPCS["VPCS Simulator<br/>(Lightweight Test Endpoints)"]
+    end
+
+    Browser -->|HTTP / HTTPS REST API| Apache
+    Browser -->|WebSocket Console Stream :8081| Guac
+    Apache -->|IPC & Control Commands :8025| Broker
+    Broker -->|Bridge Orchestration| LinuxBridge
+    Guac -->|Telnet / SSH / VNC / RDP| LinuxBridge
+    LinuxBridge --> QEMU
+    LinuxBridge --> IOL
+    LinuxBridge --> Docker
+    LinuxBridge --> VPCS
+```
 
 ```text
                        ┌──────────────────────────────────────────────┐
@@ -65,31 +171,33 @@ All upstream package releases, signed manifests, and core APT channels are maint
 
 PNetLab v8 depends on a suite of manifest-pinned Debian packages:
 
-- `pnetlab`: Core web canvas, API routing, and lab orchestration services.
-- `pnetlab-docker`: Containerized node driver and topology bridging.
-- `pnetlab-guacd` & `pnet-guac-lite`: Clientless HTML5 terminal and desktop gateway.
-- `pnetlab-qemu`: Accelerated KVM hypervisor integration and disk wrapper.
-- `pnetlab-schema`: Database migrations and topology data validation.
-- `pnetlab-vpcs`: Lightweight Virtual PC Simulator integration.
-- `pnetlab-bridge-dkms`: Kernel module for multi-bridge network interfaces.
+| Package Name                       | Functional Responsibility                                                           |
+| :--------------------------------- | :---------------------------------------------------------------------------------- |
+| `pnetlab`                          | Core web canvas, UI components, REST API routing, and lab orchestration services.   |
+| `pnetlab-docker`                   | Containerized node driver, image management, and topology bridge integration.       |
+| `pnetlab-guacd` & `pnet-guac-lite` | Clientless HTML5 terminal and desktop gateway (Guacamole protocol micro-daemon).    |
+| `pnetlab-qemu`                     | Accelerated KVM hypervisor integration, disk wrapper scripts, and hardware flags.   |
+| `pnetlab-schema`                   | Database schema migrations, MySQL/MariaDB table setup, and topology validation.     |
+| `pnetlab-vpcs`                     | Lightweight Virtual PC Simulator integration for fast ping/traceroute verification. |
+| `pnetlab-bridge-dkms`              | Kernel module for multi-bridge network interfaces and raw frame forwarding.         |
 
-**Official Trust Anchors:**
+**Official Cryptographic Trust Anchors:**
 
 - **Offline Manifest Signer Fingerprint**: `158D99DF8D57040AA8E0EDA58F353DF9007A2BB4`
 - **APT Repository Signing Key Fingerprint**: `EA21DC771565BC84C57A610861756807AC7005EC`
 
 ---
 
-## System Requirements
+## System Requirements & Sizing Matrix
 
-| Resource               | Minimum (Evaluation / Light Labs)      | Recommended (Production / Enterprise Topologies)                |
-| :--------------------- | :------------------------------------- | :-------------------------------------------------------------- |
-| **CPU Architecture**   | 64-bit x86_64 with Intel VT-x or AMD-V | 8–16+ physical cores with nested virtualization                 |
-| **Memory (RAM)**       | 8 GB                                   | 32 GB – 128 GB+ (allocated dynamically per node)                |
-| **Disk Storage**       | 40 GB available disk space             | 250 GB+ NVMe SSD (high IOPS required for concurrent QEMU boots) |
-| **Operating System**   | Ubuntu 26.04 LTS ("27H1 Resolute")     | Clean server installation without pre-existing web servers      |
-| **Hypervisor Support** | VMware ESXi 7/8+, Workstation 17+      | Proxmox VE 8.0–8.4+ (Debian 12 Bookworm, Kernel 6.5/6.8+)       |
-| **Network Interface**  | 1x Gigabit NIC (Bridged / Static IPv4) | Dedicated management NIC + VLAN trunking interfaces             |
+| Resource               | Minimum (Evaluation / Light Labs)      | Recommended (Standard Multi-Vendor Labs)                  | Production (High-Density Topologies)                 |
+| :--------------------- | :------------------------------------- | :-------------------------------------------------------- | :--------------------------------------------------- |
+| **CPU Architecture**   | 64-bit x86_64 with Intel VT-x or AMD-V | 8–16 physical cores with nested virtualization            | 24–64+ physical cores (dual-socket Xeon / EPYC)      |
+| **Memory (RAM)**       | 8 GB RAM                               | 32 GB – 64 GB RAM                                         | 128 GB – 512 GB+ ECC Registered RAM                  |
+| **Disk Storage**       | 40 GB available disk space             | 250 GB – 500 GB NVMe SSD                                  | 1 TB – 4 TB+ PCIe 4.0/5.0 NVMe (high sustained IOPS) |
+| **Host OS**            | Ubuntu 26.04 LTS ("27H1 Resolute")     | Clean server installation without third-party web servers | Bare-metal Ubuntu 26.04 or Proxmox VE 8+ VM          |
+| **Hypervisor Support** | VMware Workstation 17+ / Fusion        | Proxmox VE 8.0–8.4+ / ESXi 7.0–8.0+                       | Proxmox VE 8+ with VirtIO SCSI Single TRIM/discard   |
+| **Network Interface**  | 1x Gigabit NIC (Bridged / Static IPv4) | Dedicated management NIC + 802.1Q trunking                | Dual 10G/25G SFP+ bonded interfaces (`bond0`)        |
 
 > [!IMPORTANT]
 > **Nested Virtualization Mandatory:** If hosting PNetLab inside a virtual machine (VMware or Proxmox VE), nested virtualization **must** be active on the hypervisor CPU configuration. Verify with `grep -E 'vmx|svm' /proc/cpuinfo` inside the host.
@@ -166,7 +274,7 @@ Get-FileHash .\PNetLab-v8-netinstall.ova -Algorithm SHA256
 
 ## Installation & Deployment Methods
 
-### Method 1: Automated Network Install (Fresh Ubuntu 26.04)
+### Method 1: Automated Network Installer (Ubuntu 26.04)
 
 Recommended for clean bare-metal servers or cloud instances:
 
@@ -288,7 +396,7 @@ sudo /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 
 ## Critical Production Caveats & Troubleshooting
 
-### ⚠️ Strict Prohibition: No Upgrade Path from v4, v5, or v6
+### ⚠️ Strict Prohibition: No Upgrade Path from Legacy v4, v5, or v6
 
 > [!CAUTION]
 > **DO NOT ATTEMPT TO UPGRADE FROM LEGACY PNETLAB v4/v5/v6!**
@@ -375,7 +483,7 @@ sudo /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 
 ---
 
-## Post-Installation & Runtime Validation
+## Post-Installation & Runtime Validation Checklist
 
 Verify your PNetLab v8 runtime health using this operational checklist:
 
@@ -418,7 +526,7 @@ This repository is maintained as an independent distribution mirror, download re
 
 ---
 
-## Issues & Bug Reports
+## Issues & Bug Reports Protocol
 
 > [!IMPORTANT]
 > **Bug Reporting Protocol:**
@@ -432,6 +540,37 @@ This repository is maintained as an independent distribution mirror, download re
 
 ---
 
+## Maintainer & Contact
+
+### Harry Dertin Sutisna Alsyundawy (@alsyundawy)
+
+- 🌐 Website: [https://www.alsyundawy.com](https://www.alsyundawy.com)
+- 💻 GitHub: [@alsyundawy](https://github.com/alsyundawy)
+- 🐦 Twitter / X: [@alsyundawy](https://x.com/alsyundawy)
+- 🏢 Organization: [WWW.ALSYUNDAWY.NET](https://www.alsyundawy.net)
+- 📍 Location: DKI Jakarta, Indonesia
+
+---
+
+## Support & Donation
+
+If this documentation, mirror hub, and deployment scripts are helpful for your lab infrastructure, you can support continuous maintenance here:
+
+- **PayPal**: [`https://www.paypal.me/alsyundawy`](https://www.paypal.me/alsyundawy)
+
+### 🇮🇩 QRIS (Quick Response Code Indonesian Standard)
+
+Scan the QRIS barcode below using any Indonesian mobile banking app (BCA, Mandiri, BRI, BNI, BSI, CIMB Niaga, Permata) or e-wallet (GoPay, OVO, DANA, LinkAja, ShopeePay):
+
+![QRIS Donation Barcode - ALSYUNDAWY](https://github.com/user-attachments/assets/a0126f28-6dde-43da-ba14-d7c9a27de0df)
+
+- **Merchant / Account Name**: **ALSYUNDAWY IT SOLUTION**
+- **NMID**: **`ID1020021153676`**
+- **Direct Barcode Asset Link**: [`https://github.com/user-attachments/assets/a0126f28-6dde-43da-ba14-d7c9a27de0df`](https://github.com/user-attachments/assets/a0126f28-6dde-43da-ba14-d7c9a27de0df)
+- **WhatsApp Confirmation**: [`+62 856-8515-212`](https://wa.me/628568515212)
+
+---
+
 ## License
 
-See the license terms distributed with the upstream PNetLab v8 package. All trademarks, logos, and product names belong to their respective copyright holders.
+This documentation and repository mirror guide are provided for community educational and network engineering purposes. PNetLab software packages, binaries, and wrappers are subject to upstream licensing terms from **[@netkillui](https://codeberg.org/netkillui)**. All registered trademarks, logos, and vendor names (Cisco, Juniper, Arista, Proxmox, VMware, Ubuntu) belong to their respective copyright holders.
