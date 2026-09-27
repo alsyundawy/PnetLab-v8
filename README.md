@@ -1,5 +1,11 @@
 <!-- markdownlint-disable-file MD033 MD041 -->
 
+<p align="center">
+  <a href="https://github.com/alsyundawy/PnetLab-v8">
+    <img src="assets/pnetlab-v8-banner.jpg" alt="PNetLab v8 Enterprise Network Virtualization Platform Banner" width="100%">
+  </a>
+</p>
+
 <h1 align="center">🧪 PNetLab v8</h1>
 
 <h3 align="center">Enterprise Network Virtualization & Emulation Platform</h3>
