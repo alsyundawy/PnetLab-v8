@@ -84,42 +84,91 @@ See the license terms distributed with the PNetLab v8 package.
 
 
 
-# PNetLab v8 — Virtual Appliance Collection
+````md
+# PNetLab v8 — Download & Verification
 
-> **PNetLab Virtual Appliance & NetInstall**
->
-> Koleksi image PNetLab dalam format **OVA** untuk deployment pada platform virtualisasi seperti VMware, Proxmox VE, VirtualBox, maupun hypervisor lain yang mendukung import OVA.
-
-PNetLab merupakan platform network emulation yang menyediakan lingkungan lab virtual untuk menjalankan berbagai perangkat jaringan, termasuk node berbasis QEMU dan Docker. :contentReference[oaicite:0]{index=0}
+> Koleksi **PNetLab v8** dalam format **OVA**, lengkap dengan mirror download dan checksum untuk memastikan integritas file.
 
 ---
 
-## Available Images
+## PNetLab-v8.2-6.8.84
 
-| Image | Version | Kernel | Format | Type |
-|---|---|---:|---|---|
-| **PNetLab-v8.2-6.8.84** | v8.2 | 6.8.84 | `.ova` | Ready-to-Deploy |
-| **PNetLab-v8-netinstall** | v8 | — | `.ova` | Network Installer |
-
----
-
-# 1. PNetLab v8.2 — Kernel 6.8.84
-
-### `PNetLab-v8.2-6.8.84.ova`
-
-OVA appliance yang dapat langsung di-import ke platform virtualisasi yang mendukung format Open Virtualization Appliance.
+**File:** `PNetLab-v8.2-6.8.84.ova`
 
 ### Download
 
 | Mirror | Link |
-|---|---|
+|:--|:--|
 | **MediaFire** | https://www.mediafire.com/file/uy10drloalz61a5 |
-| **Pixeldrain** | https://pixeldrain.com/u/3WTSKNcY |
+| **PixelDrain** | https://pixeldrain.com/u/3WTSKNcY |
 
-### File Information
+### Checksums
 
 ```text
-File     : PNetLab-v8.2-6.8.84.ova
 CRC-32   : 10c5d11e
 SHA-1    : da0c715704c3fbf810ffd265c2c53f01d8c2c3a6
 SHA-256  : 855da18ff00318f08eea373f029cba579865f3a93f0bbfe8eb0767296e8f8e19
+````
+
+---
+
+## PNetLab-v8-netinstall
+
+**File:** `PNetLab-v8-netinstall.ova`
+
+### Download
+
+| Mirror         | Link                                           |
+| :------------- | :--------------------------------------------- |
+| **MediaFire**  | https://www.mediafire.com/file/txzfx3rgwy2q3r6 |
+| **PixelDrain** | https://pixeldrain.com/u/kSq9bXqq              |
+
+### Checksums
+
+```text
+CRC-32   : 60eee827
+SHA-1    : 1891a0011c3f17f17c43596423db7fc6d94c203a
+SHA-256  : 7760ef1fc5c9600fa8e4befd939773163e0676c8a8001a04394fc45dd7536822
+```
+
+---
+
+## Verification
+
+Setelah file selesai diunduh, sangat disarankan untuk melakukan verifikasi checksum sebelum melakukan import ke **VMware** atau **Proxmox VE**.
+
+### Linux
+
+```bash
+sha256sum PNetLab-v8.2-6.8.84.ova
+sha256sum PNetLab-v8-netinstall.ova
+```
+
+### macOS
+
+```bash
+shasum -a 256 PNetLab-v8.2-6.8.84.ova
+shasum -a 256 PNetLab-v8-netinstall.ova
+```
+
+### Windows PowerShell
+
+```powershell
+Get-FileHash .\PNetLab-v8.2-6.8.84.ova -Algorithm SHA256
+Get-FileHash .\PNetLab-v8-netinstall.ova -Algorithm SHA256
+```
+
+Pastikan hasil **SHA-256** identik dengan checksum yang tercantum di atas.
+
+---
+
+## File Summary
+
+| Release                   | Filename                    | Format |
+| :------------------------ | :-------------------------- | :----: |
+| **PNetLab v8.2**          | `PNetLab-v8.2-6.8.84.ova`   |   OVA  |
+| **PNetLab v8 NetInstall** | `PNetLab-v8-netinstall.ova` |   OVA  |
+
+> **Integrity Check:** Gunakan **SHA-256** sebagai metode verifikasi utama untuk memastikan file yang diunduh tidak mengalami perubahan atau kerusakan.
+
+
